@@ -1,0 +1,27 @@
+"Show the world, that you give a fuck about their 
+addictive and harmful platforms and rather have 
+your own website to free social media from its 
+current slavery."
+
+GrapheneOS
+https://grapheneos.org/
+"GrapheneOS is inherently an anti-authoritarian project that's against government and corporate surveillance/meddling."
+[Daniel Micay at #offtopic:grapheneos.org]
+
+"Whats wrong with established social media?"
+A picture button in gog-style, then a little article and links/studies/facebook papers etc.
+
+"fsocial app"
+here show the mockup I did before.
+
+Two sections:
+"Featured" (important pages we want to make aware of, like GOS)
+which is like one or two smaller rows of stuff at the top and then 
+in an extra section underneath just the feed without any regular order
+see gog for some design inspiration. 
+
+we need a light/dark design switch here, AT LEAST include it like GOS, automatic dependent on the OS settings.
+
+
+git about:
+A free and decentralised non-asocial network in development, that attempts to give the control back to the people, either by means of self-hosting or by automation of git-hosting, presenting an index of those profiles in an app.

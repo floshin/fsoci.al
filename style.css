@@ -1,0 +1,57 @@
+/* 2022 (c) by flosha */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  background-color: #121212;
+  color: rgba(255 255 255/80%);
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  margin: 0 auto;
+  align-items: center;
+}
+
+header {
+  margin: 18% auto 2em;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  color: #bd454b;
+}
+
+h3 { margin: 3em 0 1em; }
+
+main {
+  max-width: 500px;
+  margin: 5em auto 5em;
+}
+
+main img {
+  margin: 2em 1em;
+}
+
+nav {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 140px;
+}
+
+a { text-decoration: none; }
+a { color: #7886b2;}
+a:hover { color: #f74255;;}
+
+nav a { color: #f0f0f0; }
+
+
+.brand { text-align: center; }
