@@ -10,8 +10,15 @@ html {
   align-items: center;
 }
 
+.frame {
+  max-width: 300px;
+  border: 1px solid grey;
+  margin: 10% auto;
+  padding: 3.5em 0em 7em;
+}
+
 header {
-  margin: 18% auto 2em;
+  margin: 2em auto;
   display: block;
 }
 
