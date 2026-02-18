@@ -11,7 +11,7 @@ html {
 }
 
 .frame {
-  max-width: 300px;
+  max-width: 250px;
   border: 1px solid grey;
   margin: 10% auto;
 }
@@ -22,8 +22,14 @@ header {
   flex-direction: column;
 }
 
+header p {
+  margin: 0 auto 3em;
+  max-width: 200px;
+}
+
 header img {
-  max-width: 20px;
+  max-width: 35px;
+  margin: 0 auto;
 }
 
 h1 {
