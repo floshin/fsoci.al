@@ -17,19 +17,20 @@
 
 <style>
   /* 2022 (c) by flosha */
+
+  /* remove google import and put it into the page directly */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html {
   background-color: #121212;
   color: rgba(255 255 255/80%);
   font-family: "Roboto", sans-serif;
-  line-height: 1.6;
   margin: 0 auto;
   align-items: center;
 }
 
 .frame {
-  max-width: 250px;
+  max-width: 280px;
   border: 1px solid grey;
   margin: 10% auto;
 }
@@ -38,7 +39,7 @@ header {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 1em 0 3em;
+  padding: 2.5em 0 5em;
 }
 
 header p {
@@ -51,11 +52,20 @@ header img {
   margin: 0 auto;
 }
 
-h1 {
+header h1 {
   text-align: center;
   font-size: 50px;
   color: #bd454b;
 }
+  header h1:before {
+    content: "[";
+  }
+  header h1:after {
+    content: "]";
+  }
+  header h1:before, header h1:after {
+    color: #bd454b8a;
+  
 
 a { text-decoration: none; }
 a { color: #7886b2;}
@@ -65,5 +75,11 @@ a:hover { color: #f74255;;}
   background: #bd454b;
   color: black;
 }
-  
+
+/* for text boxes */
+/*
+  p {
+    line-height: 1.6;
+  }
+*/
 </style>
