@@ -331,6 +331,12 @@ nav img {
   font-size: 0.8em;
 }
 
+/* put mockup before desc. on mobile */
+@media (max-width: 1100px) {
+  .app-about { order: 2; }
+  .app-mockup { order: 1; }
+}
+ 
 
 /* FEATURED */
 
@@ -416,7 +422,8 @@ hr {
   font-size: 0.8em;
   border-radius: 12px;
   background-color: #7886b2;
-  color: #fefefe;
+  /* color: #fefefe; */
+  color: black;
 }
 
 /*
