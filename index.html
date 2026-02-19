@@ -121,7 +121,7 @@
       <img class="gos" src="img/logos/gos.svg" alt="GrapheneOS"> <span>GrapheneOS</span>
     </a>
     <a href="https://molly.im/" target="_blank">
-      <img class="signal" src="img/logos/signal.png" alt="Signal">
+      <img class="molly" src="img/logos/molly-logo.svg" alt="Molly (Improved Signal)">
     </a>
     <!--
     <a href="https://www.youtube.com/watch?v=Ky6b0eLS7NM" target="_blank">
@@ -137,6 +137,8 @@
 :root {
   margin: 0;
   padding: 0;
+
+  --logotype: #E7E3FF;
 }
 
 .brand-colour {
@@ -365,14 +367,25 @@ nav img {
   gap: 10px;
 }
 
+
 .gos {
   filter: invert(100);
   max-width: 60px !important;
 }
 
-.signal {
+.molly {
   filter: invert(30%);
 }
+
+svg.wordmark {
+  width: 75px;
+  vertical-align: middle;
+  margin: 0.5rem auto 0.5rem 0.5ch;
+  opacity: 80%;
+  transition: 250ms ease-in-out;
+}
+
+
 
 .recommend {
   margin: 0 20px -50px;
@@ -413,14 +426,16 @@ hr {
 /* BUTTON */
 
 .button {
-  margin: 2em 0;
+  margin: 2em;
 }
+
+
 
 .button span a {
   font-weight: bold;
-  padding: 1.2em;
+  padding: 1.2em 2em;
   font-size: 0.8em;
-  border-radius: 12px;
+  border-radius: 15px;
   background-color: #7886b2;
   /* color: #fefefe; */
   color: black;
@@ -434,7 +449,7 @@ hr {
 */
 
 a { text-decoration: none; }
-a { color: #7886b2;}
+a { color: #7886b2; }
 a:hover { color: #f74255;;}
 
 ::selection {
