@@ -310,6 +310,12 @@ nav img {
   margin: 0 2em;
 }
 
+@media (max-width: 800px) {
+  .app-mockup {
+    max-width: 90%;
+  }
+}
+
 .app .logo {
   min-width: 200px;
   max-width: 300px;
@@ -336,8 +342,8 @@ nav img {
   gap: 9%;
   max-width: 100%;
  /* overflow: hidden; */
-  padding: 30px 20px;
-  height: 80px;
+  padding: 50px 20px;
+ 
 }
 
 .featured span {
@@ -375,6 +381,16 @@ nav img {
   }
   .featured {
     padding: 60px 5px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .featured {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    gap: 40px;
   }
 }
 
