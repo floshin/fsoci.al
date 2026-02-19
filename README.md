@@ -1,9 +1,12 @@
-![fsocial](/img/fsocial.svg?raw=true "fsocial")
+# [fsoci.al](https://fsoci.al)  
 
-### [fsoci.al](https://fsoci.al)  
+Social media sucks.
 
-Social media sucks. fsocial sucks less. 
+We encourage digital independence.
 
-We are trying to organise free, open source, decentralised self-hosting or git-hosting of social media profiles (in form of simple static web pages), serving as an index for people to find each other and share images (like a picture feed) or text (like a blog) or both; to give control back to the user.  
+In the future we may try to simplify this process and organise free, open source, decentralised self-hosting of personal "profiles" (in form of simple static web pages), and serving them as an index for people to find each other and share images (like a picture feed) or text (like a blog) or both; to give control back to the user. Without any kind of alghorithms, advertisement or anything else. 
 
 Read as you wish: Free or fuck established social media.
+
+
+![fsocial](/img/fsocial.svg?raw=true "fsocial")
