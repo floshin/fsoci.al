@@ -4,61 +4,178 @@
 html {
   background-color: #121212;
   color: rgba(255 255 255/80%);
-  font-family: "Roboto", sans-serif;
-  line-height: 1.6;
   margin: 0 auto;
-  align-items: center;
+ /* align-items: center; */
 }
 
-.frame {
-  max-width: 300px;
-  border: 1px solid grey;
-  margin: 10% auto;
-  padding: 3.5em 0em 7em;
+body {
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  /*background-color: #fafafa;*/
+  overflow-y: scroll;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  body, h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, h5 a, h5 a:visited, h6 a, h6 a:visited {
+    color: rgb(255 255 255/87%);
+  }
 }
 
 header {
-  margin: 2em auto;
-  display: block;
-}
-
-h1 {
-  text-align: center;
-  font-size: 50px;
-  color: #bd454b;
-}
-
-h3 { margin: 3em 0 1em; }
-
-main {
-  max-width: 500px;
-  margin: 5em auto 5em;
-}
-
-main img {
-  margin: 2em 1em;
+ /* background-color: #212121; */  /* hide until top navi becomes necessary */
 }
 
 nav {
-  position: sticky;
-  bottom: 0;
-  width: 100%;
+  white-space: nowrap;
 }
 
 nav ul {
   display: flex;
-  justify-content: space-between;
-  list-style: none;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin: 0;
   padding: 0;
-  margin: 0 auto;
-  width: 140px;
 }
+
+nav ul li {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li a {
+  color: #fff;
+  display: flex;
+  padding: 1em;
+  align-items: center;
+}
+
+nav img {
+  height: 1.8rem;
+  width: 1.8rem;
+ /* filter: invert(100); */
+  vertical-align: middle;
+  margin-right: .5rem;
+}
+
+main {
+  margin: 5em auto 5em;
+}
+
+.intro {
+  background-color: #303044;
+}
+
+.visuals {
+  max-width: 80%;
+}
+
+.visuals ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.visuals ul li {
+  list-style-type: none;
+  border: 1px solid #212121;
+  height: 400px;
+  width: 300px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.visuals ul li img {
+  max-width: 80%;
+}
+
+.visuals ul li h2, .visuals ul li h3, .visuals ul li p, .visuals ul li img {
+  padding: 20px;
+}
+
+.visuals ul li a {
+  width: 100%;
+  height: 100%;
+}
+
+.elliot {
+  background: url('img/overview/elliot-artwork-sm.jpg');
+  background-position: center;
+}
+
+.title { 
+  align-items: center;
+  justify-content: center; 
+  background-color: #1e1e1e;
+}
+
+.gos h2 { margin: 0; }
+
+.signal img {
+  filter: grayscale(80%);
+}
+
+.gos img {
+  filter: invert(100);
+  max-width: 100px !important;
+}
+
+.vanity {
+  background: url('img/overview/v-for-vanity.jpg');
+  background-position: center;
+}
+
+.vanity ul li {
+    align-items: end !important;
+    justify-content: baseline;
+}
+
+.kindness {
+  background: url('img/overview/UNICEF_Social-Media-Can-Kill_Facebook.jpg');
+  background-position: center;
+  background-size: contain;
+  filter: sepia(0.8) brightness(0.8) saturate(2);
+  filter: ;
+}
+
+
+.frame {
+  max-width: 300px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 5px 5px #888888;
+  margin: 10% auto;
+  padding: 3.5em 0em 7em;
+}
+
+h1 {
+
+  font-size: 50px;
+  color: #bd454b;
+}
+
+footer {
+  width: 100%;
+  background: black;
+  margin: 0;
+}
+
+footer ul {
+  margin: 0;
+  padding: 20px;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
 
 a { text-decoration: none; }
 a { color: #7886b2;}
 a:hover { color: #f74255;;}
-
-nav a { color: #f0f0f0; }
-
 
 .brand { text-align: center; }

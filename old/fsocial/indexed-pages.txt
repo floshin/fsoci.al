@@ -1,0 +1,39 @@
+# Indexed pages
+
+The central page, the "index" of fsocial, will contain links to personal websites. 
+At the top there may be tags/selectors such as:
+
+Craft | Security | Spirituality | Philosophy | Art | Poetry | Music | Sports | Apps
+
+There shouldn't be too many; they are limited to the most crucial areas of 
+human life and only to those areas which can be considered to be valuable,
+peaceful etc. The websites linked have to comply to some basic standards;
+* avoiding scripts and cookies 
+* not filled with ads
+* it must be non-commercial OR it must be a single-person (craftsmen, so no links to companies)
+* etc. 
+
+Then we select websites and have one subpage (e.g. via jekyll) for each such category.
+In each category, there will be pictures, each of the same size for simplicites sake,
+nicely scaled by css to every device (desktop, mobile etc.).
+
+Example, Spirituality:
+* Vinoba Bhave
+* Hillside Hermitage
+* Nine-Sided Circle
+* l'Arche
+* a good free ressource about the islam
+* a good free ressource about jewism
+* a good free ressource about meister eckhart 
+* a good free ressource or book about jainism etc.
+* links to the most essential freely available books
+* etc. 
+
+Example, Apps:
+* just a list of apps that can be recommended.
+
+developer's (floshas) recommendations:
+* sun devoured earth
+* vinoba bhave books 
+* free pdfs of other books
+

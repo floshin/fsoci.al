@@ -1,0 +1,241 @@
+/* fsocial stylesheet 
+ * written by flosha */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: /*'Courier New', Courier,*/ monospace;
+  background-color: #fefefe;
+  font-size: 16px;
+}
+
+
+/* navi inspired by 
+ * grapheneos.org */
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #212121;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #fefefe;
+  font-size: 1.5em;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.nav-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.fsign {
+  padding-left: 2em;
+  padding-right: 4em;
+  max-width: 50px;
+}  
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+nav ul li {
+  list-style: none; 
+  display: flex;
+  padding-right: 2rem;
+  align-items: center;
+}
+
+/* fsocial logo/header */
+
+.logo {
+  min-width: 200px;
+  max-width: 300px;
+}
+
+
+/* main section */
+
+main {
+  max-width: 1200px;
+  font-size: calc(1em + 0.33vw);
+  color: #222;
+  padding: 10% 5% 10%;
+  line-height: 1.5;
+  margin: auto;
+}
+
+main p {
+  max-width: 700px;
+}
+
+
+/* index */
+
+#index {
+  padding: 5% 5% 5%;
+}
+
+#index img {
+  width: 100%;
+  margin: 0 1em 0.1em;
+}
+
+main .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 15%;
+}
+
+main .left {
+  max-width: 45%;
+  margin: 0 0.5em;
+}
+
+main .right {
+  max-width: 45%;
+}
+
+
+/* headlines */
+
+h1 {
+  margin-bottom: 0em;
+}
+
+h2, h3 {
+  margin-top: 3rem;
+}
+
+
+/* subpages */
+
+.about {
+  float: left;
+  max-width: 530px;
+  margin-bottom: 3em;
+}
+
+
+/* list styling */
+
+ul {
+  overflow: hidden;
+  padding-left: 1em;
+}
+
+li {
+  font-size: 0.8em;
+}
+
+.bullets li {               /* fuse with about?? */
+  padding-bottom: 1em;
+}
+
+
+/* image styling */
+
+img {
+  max-width: 700px;
+}
+
+
+/* belongs to about too! */         /* fuse with about */
+
+.button {
+  margin: 2em 0;
+}
+
+.button span a {
+  font-weight: bold;
+  padding: 1.2em;
+  font-size: 0.8em;
+  border-radius: 12px;
+  background-color: #dee1e1;
+}
+.button span a:hover {
+  background-color: #222;
+  color: #fefefe;
+  text-decoration: none;
+}
+
+.button span a:hover strong {
+  color: red;
+}
+
+
+/* code styling */              /* unused?? */
+
+code {
+  background-color: #222;
+  color: #fefefe;
+  border-radius: 5px;
+}
+
+
+/* profile on phone */            /* part of about! */
+
+.app-preview {
+  max-width: calc(350px + 0.33vw);
+  transform: rotate(18.5deg);
+}
+
+.app-desc {
+  max-width: calc(500px + 0.33vw);
+  margin: 0 2em;
+}
+
+
+/* languages, copyright, brand, git */
+
+footer {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  bottom: 0;
+  font-size: 0.9em;
+  margin: 0 auto;
+  padding: 0;
+  background: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  float: left;
+  padding-right: 1em;
+}
+
+
+/* links */
+
+a, a:link, a:active, a:visited {
+  color: inherit;
+  text-decoration: none; 
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+a:hover { 
+  text-decoration: underline; 
+}
+
+a img:hover {
+  opacity: 0.7;
+  transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+}
